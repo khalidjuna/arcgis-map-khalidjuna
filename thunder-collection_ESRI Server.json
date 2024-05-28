@@ -1,0 +1,67 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "ESRI Server",
+    "collectionId": "7ab45050-f89a-4f62-9897-6eacc2c5a064",
+    "dateExported": "2024-05-28T11:59:53.059Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7c3dd9be-2cd6-4451-90dd-9d5401c5ad82",
+            "colId": "7ab45050-f89a-4f62-9897-6eacc2c5a064",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:8080/api/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-28T11:38:31.984Z",
+            "modified": "2024-05-28T11:41:59.816Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"admin\",\n  \"password\": \"gampang\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "727ab4b6-a0db-4600-9138-13e467a8e399",
+            "colId": "7ab45050-f89a-4f62-9897-6eacc2c5a064",
+            "containerId": "",
+            "name": "Add Point",
+            "url": "http://localhost:8080/api/points",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-28T11:45:46.488Z",
+            "modified": "2024-05-28T11:49:53.360Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzE2ODk2NTU5LCJleHAiOjE3MTY5MDAxNTl9.MiLsyI08GtO6hwd5GahUvYFCQUxNL47RM3s8RGKsUko"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"x\": \"116.0672384\",\n  \"y\": \"-7.123776753\",\n  \"ratio\": \"2.355359425\",\n  \"orientation\": \"30.52462604\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5bb1124d-e70a-41fc-8b08-d6520efb171a",
+            "colId": "7ab45050-f89a-4f62-9897-6eacc2c5a064",
+            "containerId": "",
+            "name": "Get Points",
+            "url": "http://localhost:8080/api/points",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-28T11:51:18.712Z",
+            "modified": "2024-05-28T11:52:02.253Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzE2ODk2NTU5LCJleHAiOjE3MTY5MDAxNTl9.MiLsyI08GtO6hwd5GahUvYFCQUxNL47RM3s8RGKsUko"
+                }
+            ]
+        }
+    ],
+    "ref": "aifFEYVkTdrTILBGCp5TLVhUEn5A-2oTdD-Ff5rQvpqvcLtW8tiPYh2jvLE6z6LuHO_DvuGBNGCVb2y8E8PGRw"
+}
